@@ -20,7 +20,7 @@ jobs:
         run: ls -la
 
       - name: Recuperer le code
-        users: actions/checkout@v7
+        uses: actions/checkout@v7
 
       - name: lister les fichiers apres
         run: ls -la
